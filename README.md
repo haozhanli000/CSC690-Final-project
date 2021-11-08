@@ -1,3 +1,3 @@
-# CSC413-Final-project
+# CSC690-Final-project
 
 Member:Haozhan Li
