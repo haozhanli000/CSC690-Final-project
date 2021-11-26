@@ -4,11 +4,9 @@
 Haozhan Li(Only one)
 
 # Intro
-This is a note App include a Login and signup features.
+A note App which can add some note, and APP can create a acount that the data store on firebase.
 
-# Install
-  `- sudo gem install cocoapods`
-  
+# Install  
   `- pod init`
 
   `- pod install`
