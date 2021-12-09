@@ -19,12 +19,11 @@ A note App which can add some note, and APP can create a acount that the data st
 - Add Note
 - show notes
 
-# Nice to have
-- add image
+
 
 # API
 - Firebase
-- snapKit
+- snapkit
 
 # Screenshot
 
