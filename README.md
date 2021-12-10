@@ -4,7 +4,9 @@
 Haozhan Li(Only one)
 
 # Intro
-A note App which can add some note, and APP can create a acount that the data store on firebase.
+A Photonote App which can add some note, and APP can create a acount that the data store on firebase.
+
+Once the account create successful, and those info will send to firestore database
 
 # Install  
 
