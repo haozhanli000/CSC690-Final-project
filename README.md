@@ -40,7 +40,13 @@ If it happened restart the app,and make sure type in password after the input ke
 
 (should may need to wait a few second after click password text field).
 
-![screen1](screen1.png)
+![screen1](screenshot/screen1.png)
+
+![screen2](screenshot/screen2.png)
+
+![screen4](screenshot/screen4.png)
+
+![screen5](screenshot/screen5.png)
 
 
 
