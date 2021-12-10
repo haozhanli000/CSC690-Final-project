@@ -40,6 +40,12 @@ If it happened restart the app,and make sure type in password after the input ke
 
 (should may need to wait a few second after click password text field).
 
+an acount have been created for useing to test firebase
+
+email:asd@asd.com
+
+password:123456
+
 ![screen1](screenshot/screen1.png)
 
 ![screen2](screenshot/screen2.png)
