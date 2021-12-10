@@ -33,6 +33,7 @@ Go to the folder of project repository
 # Screenshot
 
 -Only tested on iphone11
+
 -an unknown crash may happen to type in password on Signup page.
 
 If it happened restart the app,and make sure type in password after the input keyboard disappeared
