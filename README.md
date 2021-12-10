@@ -40,7 +40,7 @@ If it happened restart the app,and make sure type in password after the input ke
 
 (should may need to wait a few second after click password text field).
 
-an acount have been created for useing to test firebase
+an account have been created for useing to test firebase
 
 email:asd@asd.com
 
