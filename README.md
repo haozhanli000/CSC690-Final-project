@@ -29,7 +29,6 @@ Go to the folder of project repository
 
 # API
 - Firebase
-- snapkit
 
 # Screenshot
 
