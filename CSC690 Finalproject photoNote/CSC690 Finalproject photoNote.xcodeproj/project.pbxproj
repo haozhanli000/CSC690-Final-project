@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048E978294174E1A438AD342 /* Pods_CSC690_Finalproject_photoNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA6B9297717DC7E133A361A /* Pods_CSC690_Finalproject_photoNote.framework */; };
+		5A297ED82762D2E200CEA683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297ED72762D2E200CEA683 /* AppDelegate.swift */; };
+		5A297EDA2762D2E200CEA683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297ED92762D2E200CEA683 /* SceneDelegate.swift */; };
+		5A297EE22762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A297EE02762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodeld */; };
+		5A297EE42762D2E400CEA683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A297EE32762D2E400CEA683 /* Assets.xcassets */; };
+		5A297EE72762D2E400CEA683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A297EE52762D2E400CEA683 /* LaunchScreen.storyboard */; };
+		5A297EF22762D2E400CEA683 /* CSC690_Finalproject_photoNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297EF12762D2E400CEA683 /* CSC690_Finalproject_photoNoteTests.swift */; };
+		5A297EFD2762D2E400CEA683 /* CSC690_Finalproject_photoNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297EFC2762D2E400CEA683 /* CSC690_Finalproject_photoNoteUITests.swift */; };
+		5A297F0B2762D41600CEA683 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A297F0A2762D41600CEA683 /* GoogleService-Info.plist */; };
+		5A297F0D2762D43000CEA683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A297F0C2762D43000CEA683 /* Main.storyboard */; };
+		5A297F0F2762D44B00CEA683 /* passwordvalidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F0E2762D44B00CEA683 /* passwordvalidation.swift */; };
+		5A297F112762D46900CEA683 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F102762D46900CEA683 /* Constants.swift */; };
+		5A297F1A2762D52300CEA683 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F132762D52300CEA683 /* SignUpViewController.swift */; };
+		5A297F1B2762D52300CEA683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F142762D52300CEA683 /* ViewController.swift */; };
+		5A297F1C2762D52300CEA683 /* noteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F152762D52300CEA683 /* noteTableViewCell.swift */; };
+		5A297F1D2762D52300CEA683 /* noteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F162762D52300CEA683 /* noteTableViewController.swift */; };
+		5A297F1E2762D52300CEA683 /* noteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F172762D52300CEA683 /* noteViewController.swift */; };
+		5A297F1F2762D52400CEA683 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F182762D52300CEA683 /* NavigationViewController.swift */; };
+		5A297F202762D52400CEA683 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A297F192762D52300CEA683 /* LoginViewController.swift */; };
+		7A4F2CCF03AD507B60554348 /* Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287388B1F06B55ED19E24324 /* Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework */; };
+		F3A1DEFDEA976BF6FEC34DE2 /* Pods_CSC690_Finalproject_photoNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D65C67412612C74398F9FB1 /* Pods_CSC690_Finalproject_photoNoteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A297EEE2762D2E400CEA683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A297ECC2762D2E200CEA683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A297ED32762D2E200CEA683;
+			remoteInfo = "CSC690 Finalproject photoNote";
+		};
+		5A297EF92762D2E400CEA683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A297ECC2762D2E200CEA683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A297ED32762D2E200CEA683;
+			remoteInfo = "CSC690 Finalproject photoNote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB05FEFC034A02DFBD181B8 /* Pods-CSC690 Finalproject photoNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNote.debug.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNote/Pods-CSC690 Finalproject photoNote.debug.xcconfig"; sourceTree = "<group>"; };
+		18787EE4904C512E0958A9EE /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.release.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		287388B1F06B55ED19E24324 /* Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3362D5A3F5BDCF8B5F3DA36E /* Pods-CSC690 Finalproject photoNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNote.release.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNote/Pods-CSC690 Finalproject photoNote.release.xcconfig"; sourceTree = "<group>"; };
+		5A297ED42762D2E200CEA683 /* CSC690 Finalproject photoNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC690 Finalproject photoNote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A297ED72762D2E200CEA683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A297ED92762D2E200CEA683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A297EE12762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSC690_Finalproject_photoNote.xcdatamodel; sourceTree = "<group>"; };
+		5A297EE32762D2E400CEA683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A297EE62762D2E400CEA683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A297EE82762D2E400CEA683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A297EED2762D2E400CEA683 /* CSC690 Finalproject photoNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSC690 Finalproject photoNoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A297EF12762D2E400CEA683 /* CSC690_Finalproject_photoNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC690_Finalproject_photoNoteTests.swift; sourceTree = "<group>"; };
+		5A297EF32762D2E400CEA683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A297EF82762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSC690 Finalproject photoNoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A297EFC2762D2E400CEA683 /* CSC690_Finalproject_photoNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC690_Finalproject_photoNoteUITests.swift; sourceTree = "<group>"; };
+		5A297EFE2762D2E400CEA683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A297F0A2762D41600CEA683 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A297F0C2762D43000CEA683 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5A297F0E2762D44B00CEA683 /* passwordvalidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordvalidation.swift; sourceTree = "<group>"; };
+		5A297F102762D46900CEA683 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A297F132762D52300CEA683 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A297F142762D52300CEA683 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A297F152762D52300CEA683 /* noteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noteTableViewCell.swift; sourceTree = "<group>"; };
+		5A297F162762D52300CEA683 /* noteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noteTableViewController.swift; sourceTree = "<group>"; };
+		5A297F172762D52300CEA683 /* noteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noteViewController.swift; sourceTree = "<group>"; };
+		5A297F182762D52300CEA683 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		5A297F192762D52300CEA683 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7D65C67412612C74398F9FB1 /* Pods_CSC690_Finalproject_photoNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC690_Finalproject_photoNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA90E7D0619B9576FBBA9756 /* Pods-CSC690 Finalproject photoNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNoteTests.debug.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNoteTests/Pods-CSC690 Finalproject photoNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8623FDC8861B7FB64D7675 /* Pods-CSC690 Finalproject photoNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNoteTests.release.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNoteTests/Pods-CSC690 Finalproject photoNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6684065EAB6E9FE446571CD /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.debug.xcconfig"; path = "Target Support Files/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA6B9297717DC7E133A361A /* Pods_CSC690_Finalproject_photoNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC690_Finalproject_photoNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A297ED12762D2E200CEA683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048E978294174E1A438AD342 /* Pods_CSC690_Finalproject_photoNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EEA2762D2E400CEA683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A1DEFDEA976BF6FEC34DE2 /* Pods_CSC690_Finalproject_photoNoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EF52762D2E400CEA683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4F2CCF03AD507B60554348 /* Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A297ECB2762D2E200CEA683 = {
+			isa = PBXGroup;
+			children = (
+				5A297ED62762D2E200CEA683 /* CSC690 Finalproject photoNote */,
+				5A297EF02762D2E400CEA683 /* CSC690 Finalproject photoNoteTests */,
+				5A297EFB2762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests */,
+				5A297ED52762D2E200CEA683 /* Products */,
+				CE73C074FF9F7B85FF28E029 /* Pods */,
+				E44F0018100F05376D5BB3B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A297ED52762D2E200CEA683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A297ED42762D2E200CEA683 /* CSC690 Finalproject photoNote.app */,
+				5A297EED2762D2E400CEA683 /* CSC690 Finalproject photoNoteTests.xctest */,
+				5A297EF82762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A297ED62762D2E200CEA683 /* CSC690 Finalproject photoNote */ = {
+			isa = PBXGroup;
+			children = (
+				5A297F122762D52300CEA683 /* ViewController */,
+				5A297F0E2762D44B00CEA683 /* passwordvalidation.swift */,
+				5A297F102762D46900CEA683 /* Constants.swift */,
+				5A297ED72762D2E200CEA683 /* AppDelegate.swift */,
+				5A297ED92762D2E200CEA683 /* SceneDelegate.swift */,
+				5A297F0C2762D43000CEA683 /* Main.storyboard */,
+				5A297EE32762D2E400CEA683 /* Assets.xcassets */,
+				5A297EE52762D2E400CEA683 /* LaunchScreen.storyboard */,
+				5A297EE82762D2E400CEA683 /* Info.plist */,
+				5A297F0A2762D41600CEA683 /* GoogleService-Info.plist */,
+				5A297EE02762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodeld */,
+			);
+			path = "CSC690 Finalproject photoNote";
+			sourceTree = "<group>";
+		};
+		5A297EF02762D2E400CEA683 /* CSC690 Finalproject photoNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A297EF12762D2E400CEA683 /* CSC690_Finalproject_photoNoteTests.swift */,
+				5A297EF32762D2E400CEA683 /* Info.plist */,
+			);
+			path = "CSC690 Finalproject photoNoteTests";
+			sourceTree = "<group>";
+		};
+		5A297EFB2762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A297EFC2762D2E400CEA683 /* CSC690_Finalproject_photoNoteUITests.swift */,
+				5A297EFE2762D2E400CEA683 /* Info.plist */,
+			);
+			path = "CSC690 Finalproject photoNoteUITests";
+			sourceTree = "<group>";
+		};
+		5A297F122762D52300CEA683 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A297F132762D52300CEA683 /* SignUpViewController.swift */,
+				5A297F142762D52300CEA683 /* ViewController.swift */,
+				5A297F152762D52300CEA683 /* noteTableViewCell.swift */,
+				5A297F162762D52300CEA683 /* noteTableViewController.swift */,
+				5A297F172762D52300CEA683 /* noteViewController.swift */,
+				5A297F182762D52300CEA683 /* NavigationViewController.swift */,
+				5A297F192762D52300CEA683 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE73C074FF9F7B85FF28E029 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DB05FEFC034A02DFBD181B8 /* Pods-CSC690 Finalproject photoNote.debug.xcconfig */,
+				3362D5A3F5BDCF8B5F3DA36E /* Pods-CSC690 Finalproject photoNote.release.xcconfig */,
+				F6684065EAB6E9FE446571CD /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.debug.xcconfig */,
+				18787EE4904C512E0958A9EE /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.release.xcconfig */,
+				AA90E7D0619B9576FBBA9756 /* Pods-CSC690 Finalproject photoNoteTests.debug.xcconfig */,
+				DD8623FDC8861B7FB64D7675 /* Pods-CSC690 Finalproject photoNoteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E44F0018100F05376D5BB3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA6B9297717DC7E133A361A /* Pods_CSC690_Finalproject_photoNote.framework */,
+				287388B1F06B55ED19E24324 /* Pods_CSC690_Finalproject_photoNote_CSC690_Finalproject_photoNoteUITests.framework */,
+				7D65C67412612C74398F9FB1 /* Pods_CSC690_Finalproject_photoNoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A297ED32762D2E200CEA683 /* CSC690 Finalproject photoNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A297F012762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNote" */;
+			buildPhases = (
+				AF62BA236D024D3E379733D2 /* [CP] Check Pods Manifest.lock */,
+				5A297ED02762D2E200CEA683 /* Sources */,
+				5A297ED12762D2E200CEA683 /* Frameworks */,
+				5A297ED22762D2E200CEA683 /* Resources */,
+				77FCF4D5009912FCA8F0BC55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSC690 Finalproject photoNote";
+			productName = "CSC690 Finalproject photoNote";
+			productReference = 5A297ED42762D2E200CEA683 /* CSC690 Finalproject photoNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A297EEC2762D2E400CEA683 /* CSC690 Finalproject photoNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A297F042762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNoteTests" */;
+			buildPhases = (
+				7C87A2F972F1C0A2DBF0A428 /* [CP] Check Pods Manifest.lock */,
+				5A297EE92762D2E400CEA683 /* Sources */,
+				5A297EEA2762D2E400CEA683 /* Frameworks */,
+				5A297EEB2762D2E400CEA683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A297EEF2762D2E400CEA683 /* PBXTargetDependency */,
+			);
+			name = "CSC690 Finalproject photoNoteTests";
+			productName = "CSC690 Finalproject photoNoteTests";
+			productReference = 5A297EED2762D2E400CEA683 /* CSC690 Finalproject photoNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A297EF72762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A297F072762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNoteUITests" */;
+			buildPhases = (
+				1F95176677A3643868B6B1DF /* [CP] Check Pods Manifest.lock */,
+				5A297EF42762D2E400CEA683 /* Sources */,
+				5A297EF52762D2E400CEA683 /* Frameworks */,
+				5A297EF62762D2E400CEA683 /* Resources */,
+				48AD55A2C9C8150B5D3126A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A297EFA2762D2E400CEA683 /* PBXTargetDependency */,
+			);
+			name = "CSC690 Finalproject photoNoteUITests";
+			productName = "CSC690 Finalproject photoNoteUITests";
+			productReference = 5A297EF82762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A297ECC2762D2E200CEA683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5A297ED32762D2E200CEA683 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5A297EEC2762D2E400CEA683 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5A297ED32762D2E200CEA683;
+					};
+					5A297EF72762D2E400CEA683 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5A297ED32762D2E200CEA683;
+					};
+				};
+			};
+			buildConfigurationList = 5A297ECF2762D2E200CEA683 /* Build configuration list for PBXProject "CSC690 Finalproject photoNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A297ECB2762D2E200CEA683;
+			productRefGroup = 5A297ED52762D2E200CEA683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A297ED32762D2E200CEA683 /* CSC690 Finalproject photoNote */,
+				5A297EEC2762D2E400CEA683 /* CSC690 Finalproject photoNoteTests */,
+				5A297EF72762D2E400CEA683 /* CSC690 Finalproject photoNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A297ED22762D2E200CEA683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A297EE72762D2E400CEA683 /* LaunchScreen.storyboard in Resources */,
+				5A297F0B2762D41600CEA683 /* GoogleService-Info.plist in Resources */,
+				5A297EE42762D2E400CEA683 /* Assets.xcassets in Resources */,
+				5A297F0D2762D43000CEA683 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EEB2762D2E400CEA683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EF62762D2E400CEA683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F95176677A3643868B6B1DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AD55A2C9C8150B5D3126A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests/Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FCF4D5009912FCA8F0BC55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote/Pods-CSC690 Finalproject photoNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote/Pods-CSC690 Finalproject photoNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSC690 Finalproject photoNote/Pods-CSC690 Finalproject photoNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C87A2F972F1C0A2DBF0A428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC690 Finalproject photoNoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF62BA236D024D3E379733D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC690 Finalproject photoNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A297ED02762D2E200CEA683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A297F202762D52400CEA683 /* LoginViewController.swift in Sources */,
+				5A297F1A2762D52300CEA683 /* SignUpViewController.swift in Sources */,
+				5A297F1F2762D52400CEA683 /* NavigationViewController.swift in Sources */,
+				5A297F0F2762D44B00CEA683 /* passwordvalidation.swift in Sources */,
+				5A297EE22762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodeld in Sources */,
+				5A297F1C2762D52300CEA683 /* noteTableViewCell.swift in Sources */,
+				5A297ED82762D2E200CEA683 /* AppDelegate.swift in Sources */,
+				5A297F1B2762D52300CEA683 /* ViewController.swift in Sources */,
+				5A297F1E2762D52300CEA683 /* noteViewController.swift in Sources */,
+				5A297F1D2762D52300CEA683 /* noteTableViewController.swift in Sources */,
+				5A297EDA2762D2E200CEA683 /* SceneDelegate.swift in Sources */,
+				5A297F112762D46900CEA683 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EE92762D2E400CEA683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A297EF22762D2E400CEA683 /* CSC690_Finalproject_photoNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A297EF42762D2E400CEA683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A297EFD2762D2E400CEA683 /* CSC690_Finalproject_photoNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A297EEF2762D2E400CEA683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A297ED32762D2E200CEA683 /* CSC690 Finalproject photoNote */;
+			targetProxy = 5A297EEE2762D2E400CEA683 /* PBXContainerItemProxy */;
+		};
+		5A297EFA2762D2E400CEA683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A297ED32762D2E200CEA683 /* CSC690 Finalproject photoNote */;
+			targetProxy = 5A297EF92762D2E400CEA683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A297EE52762D2E400CEA683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A297EE62762D2E400CEA683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A297EFF2762D2E400CEA683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A297F002762D2E400CEA683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A297F022762D2E400CEA683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB05FEFC034A02DFBD181B8 /* Pods-CSC690 Finalproject photoNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A297F032762D2E400CEA683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3362D5A3F5BDCF8B5F3DA36E /* Pods-CSC690 Finalproject photoNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A297F052762D2E400CEA683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA90E7D0619B9576FBBA9756 /* Pods-CSC690 Finalproject photoNoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNoteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC690 Finalproject photoNote.app/CSC690 Finalproject photoNote";
+			};
+			name = Debug;
+		};
+		5A297F062762D2E400CEA683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8623FDC8861B7FB64D7675 /* Pods-CSC690 Finalproject photoNoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNoteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC690 Finalproject photoNote.app/CSC690 Finalproject photoNote";
+			};
+			name = Release;
+		};
+		5A297F082762D2E400CEA683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6684065EAB6E9FE446571CD /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CSC690 Finalproject photoNote";
+			};
+			name = Debug;
+		};
+		5A297F092762D2E400CEA683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18787EE4904C512E0958A9EE /* Pods-CSC690 Finalproject photoNote-CSC690 Finalproject photoNoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSC690 Finalproject photoNoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.123.CSC690-Finalproject-photoNoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CSC690 Finalproject photoNote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A297ECF2762D2E200CEA683 /* Build configuration list for PBXProject "CSC690 Finalproject photoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A297EFF2762D2E400CEA683 /* Debug */,
+				5A297F002762D2E400CEA683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A297F012762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A297F022762D2E400CEA683 /* Debug */,
+				5A297F032762D2E400CEA683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A297F042762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A297F052762D2E400CEA683 /* Debug */,
+				5A297F062762D2E400CEA683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A297F072762D2E400CEA683 /* Build configuration list for PBXNativeTarget "CSC690 Finalproject photoNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A297F082762D2E400CEA683 /* Debug */,
+				5A297F092762D2E400CEA683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A297EE02762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A297EE12762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodel */,
+			);
+			currentVersion = 5A297EE12762D2E200CEA683 /* CSC690_Finalproject_photoNote.xcdatamodel */;
+			path = CSC690_Finalproject_photoNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A297ECC2762D2E200CEA683 /* Project object */;
+}
