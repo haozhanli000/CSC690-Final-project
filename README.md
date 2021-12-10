@@ -7,6 +7,9 @@ Haozhan Li(Only one)
 A note App which can add some note, and APP can create a acount that the data store on firebase.
 
 # Install  
+
+Go to the folder of project repository
+
   `- pod init`
 
   `- pod install`
@@ -18,6 +21,9 @@ A note App which can add some note, and APP can create a acount that the data st
 - Login
 - Add Note
 - show notes
+
+# Nice have:
+-add photo
 
 
 
