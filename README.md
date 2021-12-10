@@ -58,7 +58,7 @@ password:123456
 
 ![screen6](screenshot/screen6.png)
 
-![screen7](screenshot/screen7.png)
+
 
 
 
