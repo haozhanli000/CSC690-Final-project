@@ -40,8 +40,9 @@ If it happened restart the app,and make sure type in password after the input ke
 
 (should may need to wait a few second after click password text field).
 
-![https://github.com/haozhanli000/CSC690-Final-project
-/raw/main/screentshot/screen1]
+![screen1](screen1.png)
+
+
 
 
 
